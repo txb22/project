@@ -147,14 +147,10 @@
     margin: 2rem 0 1rem 0;
   }
 }
-@media (max-width: 480px) {
-  .box-text-open .button button {
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
+@media (max-width: 1024px) {
+  .box-coming .box-button button:first-child {
+    padding: 0.5rem 0.5rem;
   }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
   .box-coming .box-button button:first-child,
   .box-close .box-button button:first-child {
     margin-right: 0.25rem;
